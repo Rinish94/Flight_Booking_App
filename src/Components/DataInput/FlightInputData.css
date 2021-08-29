@@ -1,0 +1,30 @@
+.LeftDataEntryContainer {
+  width: 12rem;
+  /* border: 1px solid black; */
+  height: 35vh;
+  margin: 1rem auto;
+  padding: 0.1rem;
+}
+.LeftDataEntryContainer input {
+  width: 10rem;
+  margin: 0.2rem auto;
+  height: 1.1rem;
+  border-radius: 4px;
+  border: 1px solid grey;
+}
+.LeftCostSliderContainer {
+  width: 12rem;
+  border: 1px solid grey;
+  height: 18vh;
+  margin: 1rem auto;
+  padding: 0rem;
+  font-size: small;
+  font-weight: medium;
+}
+.selectBox {
+  width: 10.2rem;
+  margin: 0.2rem auto;
+  height: 1.1rem;
+  border-radius: 4px;
+  border: 1px solid grey;
+}

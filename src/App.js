@@ -1,5 +1,5 @@
 import './App.css';
-import FlightData from './Components/FlightData';
+import FlightData from './Components/FlightData/FlightData';
 
 function App() {
   return (
