@@ -21,6 +21,7 @@ const FlightInputData = ({
   setRangeval,
   setData,
   getDataReturn,
+  getData,
 }) => {
   // console.log(setData)
   const [returndata, setReturnData] = useState(false);
@@ -51,6 +52,7 @@ const FlightInputData = ({
       returndata: returndata,
     };
     setData(payload);
+    // getData(payload);
     // console.log(payload)
   }
   // console.log(returndata)
@@ -84,7 +86,7 @@ const FlightInputData = ({
       returndata: returndata,
     };
     // console.log(payload);
-    //setData(payload);
+    // setData(payload);
     getDataReturn(payload);
   }
 

@@ -71,6 +71,7 @@ const FlightData = () => {
               setRangeval={setRangeval}
               setData={setData}
               getDataReturn={getDataReturn}
+              getData={getData}
               origin={origin}
               destination={destination}
               startDate={startDate}
